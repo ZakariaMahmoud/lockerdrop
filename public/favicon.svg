@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Lockerdrop">
+  <!-- Light colors live on the shapes, so the logo renders correctly even where
+       styles are blocked; the style block only swaps in the dark palette. -->
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .door { fill: #f1ece2; }
+      .vent { stroke: #1b1a17; stroke-opacity: 0.35; }
+      .mark { stroke: #e8590c; }
+      .dot { fill: #e8590c; }
+    }
+  </style>
+  <rect class="door" x="6" y="3" width="52" height="58" rx="11" fill="#1b1a17"/>
+  <path class="vent" d="M18 13h28M18 18.5h28" stroke="#fffaf3" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round"/>
+  <path class="mark" d="M32 25v15m-7.5-7.5L32 40l7.5-7.5" fill="none" stroke="#ff6a1a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle class="dot" cx="20.5" cy="50" r="3" fill="#ff6a1a"/>
+  <circle class="dot" cx="28.2" cy="50" r="3" fill="#ff6a1a"/>
+  <circle class="dot" cx="35.8" cy="50" r="3" fill="#ff6a1a"/>
+  <circle class="dot" cx="43.5" cy="50" r="3" fill="#ff6a1a"/>
+</svg>

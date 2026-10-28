@@ -1,0 +1,18 @@
+{
+  "name": "lockerdrop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lockerdrop: drop files into a workspace and share them on your local network (or a Cloudflare tunnel) with a short code",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage test/*.test.js",
+    "tunnel": "sh scripts/tunnel.sh"
+  },
+  "license": "MIT"
+}
